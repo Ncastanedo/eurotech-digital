@@ -1,0 +1,91 @@
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background: url('img/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro con transparencia */
+    border-radius: 10px;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #00b4d8;
+}
+
+header .subheader {
+    font-weight: 500;
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.service img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.service p {
+    font-weight: 700; /* Negrita */
+    font-size: 1.5em; /* Tamaño de texto más grande */
+    color: #ffffff;
+    margin-top: 10px;
+    text-align: center; /* Centrado */
+}
+
+.contact {
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.contact p {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.contact button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #00b4d8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer img {
+    max-width: 100%;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
